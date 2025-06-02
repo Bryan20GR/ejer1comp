@@ -2,15 +2,17 @@
       width: 200px;
       height: 100px;
       padding: 20px;
-      border: 5px solid #3498db;
+      border: 5px solid #000000;
       margin: 30px;
-      background-color: #f1c40f;
+      background-color: #f10f0fb7;
       box-sizing: content-box;
+      font-family: fantasy;
     }
     body {
       background-color: #ecf0f1;
       font-family: Arial, sans-serif;
       text-align: center;
+      background-color: #e67e22;
   
     }
     .contenedor {
@@ -20,10 +22,11 @@
     }
 
     .box {
-      background-color: #3498db;
-      color: white;
+      background-color: #34db50;
+      color: rgb(255, 0, 0);
       padding: 10px;
       margin: 5px;
+      margin: auto;
     }
 
     .block {
@@ -46,7 +49,7 @@
     .contenedor {
       position: relative;
       background-color: #f0f0f0;
-      border: 2px dashed #ccc;
+      border: 2px dashed #cccccc;
       padding: 40px;
       margin-bottom: 50px;
       height: 200px;
@@ -56,8 +59,9 @@
       width: 150px;
       height: 50px;
       padding: 10px;
-      color: white;
+      color: rgb(235, 11, 11);
       border-radius: 5px;
+      font-family:cursive;
     }
 
     .static {
@@ -95,11 +99,11 @@
 
     .contenedor {
       display: flex;
-      border: 2px dashed #ccc;
+      border: 2px dashed #000877;
       padding: 20px;
       height: 200px;
       margin-bottom: 30px;
-      background-color: #ffffff;
+      background-color: #b11818;
     }
 
     .caja {
@@ -156,7 +160,17 @@
         text-align: center;
         padding: 5%;
     font-style: normal;
-    text-decoration:none
+    text-decoration:none;
+    font-family: serif;
+    color: #9b59b6;
     }
     nav{ justify-content:center;
-    text-align: center;}
+    text-align: center;
+ 
+  }
+  header{background-color: #2ecc71;}
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    text-decoration:line-through;
+  }
